@@ -1,0 +1,15 @@
+warning: The `tool.uv.dev-dependencies` field (used in `packages/openpi-client/pyproject.toml`) is deprecated and will be removed in a future release; use `dependency-groups.dev` instead
+Using Python 3.11.15 environment at: /Users/yy_catmax/miniconda3/envs/VLA-env
+  × No solution found when resolving dependencies:
+  ╰─▶ Because jax-cuda12-plugin[with-cuda]==0.5.3 has no wheels with
+      a matching platform tag (e.g., `macosx_26_0_arm64`) and only
+      jax-cuda12-plugin[with-cuda]<=0.9.2 is available, we can conclude that
+      jax-cuda12-plugin[with-cuda]==0.5.3 cannot be used.
+      And because jax[cuda12]==0.5.3 depends on
+      jax-cuda12-plugin[with-cuda]==0.5.3 and openpi==0.1.0 depends on
+      jax[cuda12]==0.5.3, we can conclude that openpi==0.1.0 cannot be used.
+      And because only openpi==0.1.0 is available and you require openpi, we
+      can conclude that your requirements are unsatisfiable.
+
+      hint: Wheels are available for `jax-cuda12-plugin` (v0.5.3) on the
+      following platforms: `manylinux2014_aarch64`, `manylinux2014_x86_64`
